@@ -29,10 +29,6 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/" element />
-      </Routes>
     </BrowserRouter>
   );
 };
